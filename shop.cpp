@@ -19,8 +19,10 @@ void shop :: initcounter(){
 }
 
 void shop :: SetPrice(){
+    //enter the customer id number
     cout<<"Enter the ItemId of "<<counter+1<<" is :";
     cin>>itemId[counter];
+    //here we have to enter the product price of item
     cout<<"Enter the ItemPrice of product "<<counter+1<<" is: ";
     cin>>itemPrice[counter];
     counter++;
