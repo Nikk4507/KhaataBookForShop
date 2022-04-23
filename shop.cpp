@@ -6,8 +6,11 @@ class shop{
     int itemPrice[100];
     int counter,n;
     public:
+    //initiate the counter variable
     void initcounter(void);
+    // set the price for item
     void SetPrice(void);
+    //display the price of total items
     void DisplayPrice(void);
 };
 
